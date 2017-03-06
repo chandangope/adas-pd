@@ -37,7 +37,7 @@ MESSAGE("SOURCES = ${SOURCES}")
 
 #For the shared library:
 set ( PROJECT_LINK_LIBS libivadaspd.so libtensorflow.so
-	libopencv_core.so libopencv_highgui.so libopencv_imgcodecs.so libopencv_imgproc.so)
+	libopencv_core.so libopencv_highgui.so libopencv_imgcodecs.so libopencv_imgproc.so libopencv_videoio.so)
 link_directories( lib  /usr/local/lib)
 
 add_executable(testivadaspd ${SOURCES})

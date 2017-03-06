@@ -1,0 +1,1 @@
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/osboxes/Users/chandan/cpp/iv_adas_pd_test/lib
